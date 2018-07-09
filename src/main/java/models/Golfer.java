@@ -2,7 +2,7 @@ package models;
 import javax.persistence.*;
 
 @Entity
-@Table(name="golfers")
+@Table(name = "golfers")
 public class Golfer {
 
     private String firstName;
