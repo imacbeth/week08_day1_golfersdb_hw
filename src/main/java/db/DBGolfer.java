@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 
 import java.util.List;
 
-public class GolferDB {
+public class DBGolfer {
 
     private static Session session;
     private static Transaction transaction;
@@ -39,7 +39,8 @@ public class GolferDB {
         } finally {
             session.close();
         }
-
         return results;
     }
+
+
 }
